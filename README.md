@@ -1,3 +1,3 @@
 # RPadroes
 Reconhecimento de Padrões
-com o Sr.Vencio
+com o Dr.Vencio
