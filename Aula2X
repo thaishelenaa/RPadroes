@@ -1,6 +1,5 @@
 # adicionar mais 1 dimensão nos dados que já tinham sido criados antes.
 
-  
 X = read.delim("dados-exemplo-2D-v1.txt", header=FALSE) # le os dados 2D
 x = X[,1]
 y = X[,2]
