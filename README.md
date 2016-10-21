@@ -1,0 +1,2 @@
+# RPadroes
+Reconhecimento de Padrões
