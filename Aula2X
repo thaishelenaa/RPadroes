@@ -1,0 +1,11 @@
+# adicionar mais 1 dimensão nos dados que já tinham sido criados antes.
+
+X = read.delim("dados-exemplo-2D-v1.txt", header=FALSE) # le os dados 2D
+x = X[,1]
+y = X[,2]
+za = rnorm(50, 5, 1)
+zb = rnorm(70, 4.9, 1)
+z = c(za, zb) # grudando za com zb
+z = round(z, 3)
+D = cbind(X[,1:2], z, X[,3]) # coluna 1 e 2 tem x,y originais. 3 tem z novo. 4 tem classe
+write.table(D, "dados-exemplo-3D-v1.txt", sep="\t", quote=F, row.names=F, col.names=F)
